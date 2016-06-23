@@ -1,0 +1,12 @@
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\SamplePlainHtmlClient\bin\SamplePlainHtmlBroadCastClient.dll.config
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\SamplePlainHtmlClient\bin\SamplePlainHtmlBroadCastClient.dll
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\SamplePlainHtmlClient\bin\SamplePlainHtmlBroadCastClient.pdb
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\SamplePlainHtmlClient\obj\Debug\SamplePlainHtmlBroadCastClient.csprojResolveAssemblyReference.cache
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\SamplePlainHtmlClient\obj\Debug\SamplePlainHtmlBroadCastClient.dll
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\SamplePlainHtmlClient\obj\Debug\SamplePlainHtmlBroadCastClient.pdb
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\SamplePlainHtmlBroadCastClient\bin\SamplePlainHtmlBroadCastClient.dll.config
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\SamplePlainHtmlBroadCastClient\bin\SamplePlainHtmlBroadCastClient.dll
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\SamplePlainHtmlBroadCastClient\bin\SamplePlainHtmlBroadCastClient.pdb
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\SamplePlainHtmlBroadCastClient\obj\Debug\SamplePlainHtmlBroadCastClient.csprojResolveAssemblyReference.cache
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\SamplePlainHtmlBroadCastClient\obj\Debug\SamplePlainHtmlBroadCastClient.dll
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\SamplePlainHtmlBroadCastClient\obj\Debug\SamplePlainHtmlBroadCastClient.pdb

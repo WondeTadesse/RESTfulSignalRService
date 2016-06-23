@@ -1,0 +1,5 @@
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\MessageBroadCasterHtmlClient\bin\MessageBroadCasterHtmlClient.dll.config
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\MessageBroadCasterHtmlClient\bin\MessageBroadCasterHtmlClient.dll
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\MessageBroadCasterHtmlClient\bin\MessageBroadCasterHtmlClient.pdb
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\MessageBroadCasterHtmlClient\obj\Release\MessageBroadCasterHtmlClient.dll
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\MessageBroadCasterHtmlClient\obj\Release\MessageBroadCasterHtmlClient.pdb

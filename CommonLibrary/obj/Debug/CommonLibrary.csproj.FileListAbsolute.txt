@@ -1,0 +1,8 @@
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\SignalRenabledWebAPIServiceSoln\CommonLibrary\bin\CommonLibrary.dll
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\SignalRenabledWebAPIServiceSoln\CommonLibrary\bin\CommonLibrary.pdb
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\SignalRenabledWebAPIServiceSoln\CommonLibrary\obj\Debug\CommonLibrary.dll
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\SignalRenabledWebAPIServiceSoln\CommonLibrary\obj\Debug\CommonLibrary.pdb
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\CommonLibrary\bin\CommonLibrary.dll
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\CommonLibrary\bin\CommonLibrary.pdb
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\CommonLibrary\obj\Debug\CommonLibrary.dll
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\CommonLibrary\obj\Debug\CommonLibrary.pdb

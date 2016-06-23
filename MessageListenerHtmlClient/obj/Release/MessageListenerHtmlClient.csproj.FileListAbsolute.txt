@@ -1,0 +1,5 @@
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\MessageListenerHtmlClient\bin\MessageListenerHtmlClient.dll.config
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\MessageListenerHtmlClient\bin\MessageListenerHtmlClient.dll
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\MessageListenerHtmlClient\bin\MessageListenerHtmlClient.pdb
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\MessageListenerHtmlClient\obj\Release\MessageListenerHtmlClient.dll
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\MessageListenerHtmlClient\obj\Release\MessageListenerHtmlClient.pdb

@@ -1,0 +1,11 @@
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\SignalRenabledWebAPIServiceSoln\SamplePlainHtmlClient\bin\SamplePlainHtmlClient.dll.config
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\SignalRenabledWebAPIServiceSoln\SamplePlainHtmlClient\bin\SamplePlainHtmlClient.dll
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\SignalRenabledWebAPIServiceSoln\SamplePlainHtmlClient\bin\SamplePlainHtmlClient.pdb
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\SignalRenabledWebAPIServiceSoln\SamplePlainHtmlClient\obj\Release\SamplePlainHtmlClient.dll
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\SignalRenabledWebAPIServiceSoln\SamplePlainHtmlClient\obj\Release\SamplePlainHtmlClient.pdb
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\SignalRenabledWebAPIServiceSoln\SamplePlainHtmlClient\obj\Release\SamplePlainHtmlClient.csprojResolveAssemblyReference.cache
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\SamplePlainHtmlClient\bin\SamplePlainHtmlClient.dll.config
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\SamplePlainHtmlClient\bin\SamplePlainHtmlClient.dll
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\SamplePlainHtmlClient\bin\SamplePlainHtmlClient.pdb
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\SamplePlainHtmlClient\obj\Release\SamplePlainHtmlClient.dll
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\RESTfulSignalRServiceSoln\SamplePlainHtmlClient\obj\Release\SamplePlainHtmlClient.pdb

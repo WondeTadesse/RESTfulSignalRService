@@ -1,0 +1,5 @@
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\SignalRenabledWebAPIServiceSoln\Common\bin\Release\Common.dll
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\SignalRenabledWebAPIServiceSoln\Common\bin\Release\Common.pdb
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\SignalRenabledWebAPIServiceSoln\Common\obj\Release\Common.csprojResolveAssemblyReference.cache
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\SignalRenabledWebAPIServiceSoln\Common\obj\Release\Common.dll
+C:\Users\ej5hn3j\Documents\Visual Studio 2013\Projects\SignalRenabledWebAPIServiceSoln\Common\obj\Release\Common.pdb
