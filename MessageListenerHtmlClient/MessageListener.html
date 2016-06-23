@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Message Listener Html Client</title>
+    <link rel="stylesheet" type="text/css" href="Content/Site.css">
+    <link rel="stylesheet" type="text/css" href="Content/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="Content/bootstrap.min.css">
+    <script src="Scripts/jquery-1.6.4.min.js"></script>
+    <script src="Scripts/jquery.signalR-1.0.1.min.js"></script>
+    <script src="/signalR"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var connection = $.hubConnection('http://localhost:35387/');
+            var eventName = "onMessageListened";
+            connection.start().done(function () {
+                $("#status").text("").prepend("<i>" + eventName + "</i> event is being listened !").prepend("Connected. ").css("color", "green");
+            });
+
+            var messageBroadCast = connection.createHubProxy('BroadCastHub');
+            messageBroadCast.on(eventName, function (message) {
+                $('#message').append('<li>' + message + '</li>');
+            });
+
+            var today = new Date();
+            var year = today.getFullYear();
+            $('#copyright').html('&copy;').append(year).append(' - CodeProject - For those who code');
+        });
+    </script>
+</head>
+<body class="container body-content" style="background-color:#ff9900">
+    <div class="jumbotron" style="background-color:green">
+        <h1 style="color:white">Message Listener Html Client</h1>
+    </div>
+    <div class="jumbotron">
+        <div class="content-wrapper">
+            <p>
+                <table>
+                    <tr>
+                        <td style="vertical-align:top">Connection status : </td>
+                        <td>
+                            <div id="status" style="color:red">Not Connected</div>
+                        </td>
+                    </tr>
+                </table>
+                <div style="overflow-y: scroll; height:300px;font-size:12px">
+                    <ul id="message" />
+                </div>
+            </p>
+        </div>
+    </div>
+    <hr />
+    <div id="copyright" />
+</body>
+</html>

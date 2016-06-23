@@ -1,0 +1,109 @@
+﻿<div class="jumbotron" style="background-color:green">
+    <h1 style="color:white;text-align:center">RESTful SignalR Service</h1>
+</div>
+<div class="jumbotron">
+    <div>
+        <table>
+            <tr><td><h2>Message BroadCaster</h2></td></tr>
+            <tr>
+                <td>
+                    <table border="1" style="border-color:green;border-width:2px">
+                        <tr style="border-color:green">
+                            <td style="padding:5px;"><h4>REST service URL</h4></td>
+                            <td style="padding:5px"><h4>HTTP Verb/Action</h4></td>
+                            <td style="padding:5px"><h4>Request</h4></td>
+                            <td style="padding:5px"><h4>Response</h4></td>
+                        </tr>
+                        <tr>
+                            <td valign="top" rowspan="3"><pre><i>[this site url]/messagebroadcast/broadcast</i></pre></td>
+                            <td valign="top" rowspan="3"><pre><i>POST</i></pre></td>
+                            <td valign="top">
+                                <table>
+                                    <tr>
+                                        <td><b>Option</b></td>
+                                        <td><b>Example</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top" width="150px"><b>1</b>. Event Name is enumerated and sent as JSON MessageRequest object</td>
+                                        <td valign="top" class="tdContent">
+                                            <i>
+                                                &nbsp;{<br />
+                                                &nbsp;&nbsp;&nbsp;&nbsp;"Message" : "Code Project is Awesome !",<br />
+                                                &nbsp;&nbsp;&nbsp;&nbsp;"EventName" : 3<br />
+                                                &nbsp;}
+                                            </i>
+                                        </td>
+                                    </tr>
+
+                                </table>
+
+                            </td>
+                            <td valign="top" rowspan="3">
+                                <table>
+                                    <tr>
+                                        <td valign="top"><b>Success Response</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top" class="tdContent">Message successfully broadcasted !</td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top"><b>Error Response</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top" class="tdContent">Opps got error.Exception, Message[<i>Appropriate exception message</i>]</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td valign="top" width="150px"><b>2</b>. Using request as query string</td>
+                                        <td valign="top" class="tdContent">
+                                            <i>
+                                                [this site url]/messagebroadcast/broadcast?message=Code Project is Awesome!&eventName=onMessageListened
+                                            </i>
+                                        </td>
+                                    </tr>
+
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td valign="top" width="150px"><b>3</b>. Event Name is defaulted to <pre><i>onMessageListened</i></pre></td>
+                                        <td valign="top" class="tdContent">
+                                            <i>
+                                                [this site url]/messagebroadcast/broadcast?message=Code Project is Awesome!
+                                            </i>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr><td><h2>Message Listener</h2></td></tr>
+            <tr>
+                <td>
+                    <table border="1" style="border-color:green;border-width:2px">
+                        <tr style="border-color:green">
+                            <td style="padding:5px;"><h4>Hub URL</h4></td>
+                            <td style="padding:5px"><h4>Hub Name</h4></td>
+                            <td style="padding:5px"><h4>BroadCast Event Names</h4><h6>(Enum value starts from 1-5)</h6></td>
+                        </tr>
+                        <tr>
+                            <td valign="top"><i><pre>[this site url]</pre>For SignalR Javascript Client, use <pre>[this site url]/signalr</pre> or include<pre>&lt;script src="/signalr"&gt;&lt;/script&gt;</pre> and use </i><pre><i>[this site url]</i></pre></td>
+                            <td valign="top"><i><pre>BroadCastHub</pre></i></td>
+                            <td valign="top"><i><pre>onMessageListened<br />onInserted<br />onUpdated<br />onDeleted<br />onException<br /></pre></i></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>

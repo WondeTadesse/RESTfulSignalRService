@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Message BroadCaster HTML Client</title>
+    <link rel="stylesheet" type="text/css" href="Content/Site.css">
+    <link rel="stylesheet" type="text/css" href="Content/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="Content/bootstrap.min.css">
+    <script src="Scripts/jquery-1.10.2.intellisense.js"></script>
+    <script src="Scripts/jquery-1.10.2.js"></script>
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#broadCast').click(
+                function () {
+                    $.post('http://localhost:35387/messagebroadcast/broadCast?message=' + $('#message').val() + "&eventName=" + $('#eventName').val());
+                });
+            var today = new Date();
+            var year = today.getFullYear();
+            $('#copyright').html('&copy;').append(year).append(' - CodeProject - For those who code');
+        });
+    </script>
+</head>
+<body class="container body-content" style="background-color:#ff9900">
+    <div class="jumbotron" style="background-color:green">
+        <h1 style="color:white">Message BroadCaster HTML Client</h1>
+    </div>
+    <div class="jumbotron">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h2>Broadcast a Message :</h2>
+            </hgroup>
+            <p style="font-size:12px">
+                <input type="text" name="message" value="CodeProject is awesome !" id="message" />
+                <select id="eventName">
+                    <option value="" selected="selected">-- Select Event Name --</option>
+                    <option value="onMessageListened">On Message Listened</option>
+                </select>
+                <button id="broadCast">Broadcast</button>
+            </p>
+        </div>
+    </div>
+    <hr />
+    <div id="copyright" />
+</body>
+</html>

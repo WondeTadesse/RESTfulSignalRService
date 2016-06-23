@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Add more events upon design agreement">
+    <Position X="6.15" Y="6.037" Height="0.419" Width="1.639" />
+  </Comment>
+  <Class Name="SignalRBroadCastListener.HubConfiguration.HubConfigurationSection" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="2.5" Width="2" />
+    <AssociationLine Name="HubURLElement" Type="SignalRBroadCastListener.HubConfiguration.HubURLElement" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.75" Y="2.723" />
+        <Point X="6.104" Y="2.723" />
+        <Point X="6.104" Y="2.156" />
+        <Point X="6.688" Y="2.156" />
+        <Point X="6.688" Y="1.733" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-1.262" Y="0.126" Height="0.182" Width="1.212" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="HubNameElement" Type="SignalRBroadCastListener.HubConfiguration.HubNameElement" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.75" Y="3.727" />
+        <Point X="7" Y="3.727" />
+        <Point X="7" Y="3.483" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-0.963" Y="0.303" Height="0.182" Width="1.524" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="HubEventNameElement" Type="SignalRBroadCastListener.HubConfiguration.HubEventNameElement" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.75" Y="4" />
+        <Point X="7" Y="4" />
+        <Point X="7" Y="4.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-0.891" Y="0.153" Height="0.182" Width="1.618" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="HubListeningIndicatorElement" Type="SignalRBroadCastListener.HubConfiguration.HubListeningIndicatorElement">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.078" Y="0.154" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAASARAAAAAEAAAAAAACACIAAAAAAAAgAAAIAACCAA=</HashCode>
+      <FileName>HubConfiguration\HubConfigurationSection.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="HubURLElement" />
+      <Property Name="HubNameElement" />
+      <Property Name="HubEventNameElement" />
+      <Property Name="HubListeningIndicatorElement" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.242" />
+  </Class>
+  <Class Name="SignalRBroadCastListener.HubConfiguration.HubEventNameElement">
+    <Position X="6" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HubConfiguration\HubEventNameElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SignalRBroadCastListener.HubConfiguration.HubNameElement">
+    <Position X="6.25" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HubConfiguration\HubNameElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SignalRBroadCastListener.HubConfiguration.HubURLElement">
+    <Position X="6.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HubConfiguration\HubURLElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommonLibrary.BroadCastEventArgs">
+    <Position X="1" Y="7.75" Width="2" />
+    <AssociationLine Name="MessageRequest" Type="CommonLibrary.MessageRequest" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.938" Y="8.983" />
+        <Point X="1.938" Y="9.312" />
+        <Point X="3.75" Y="9.312" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.307" Y="0.05" Height="0.182" Width="1.222" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="MessageRequest" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SignalRBroadCastListener.MessageListener.BroadCastListener">
+    <Position X="1" Y="3" Width="2.5" />
+    <AssociationLine Name="BroadCastEventArgs" Type="CommonLibrary.BroadCastEventArgs" FixedToPoint="true">
+      <Path>
+        <Point X="2.062" Y="7.189" />
+        <Point X="2.062" Y="7.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-1.581" Y="0.164" Height="0.182" Width="1.51" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAACEAABBAEhIAAAAAAEBAAAAAAAAAAgBAAAA=</HashCode>
+      <FileName>MessageListener\BroadCastListener.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="BroadCastEventArgs" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CommonLibrary.MessageRequest">
+    <Position X="3.75" Y="7.75" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SignalRBroadCastListener.HubConfiguration.HubListeningIndicatorElement">
+    <Position X="3.75" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HubConfiguration\HubListeningIndicatorElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SignalRBroadCastListener.Interfaces.IHubConfiguration">
+    <Position X="3.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAASAQAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IHubConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SignalRBroadCastListener.Interfaces.IBroadCastListener">
+    <Position X="1" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAEAAABAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IBroadCastListener.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="CommonLibrary.EventNameEnum">
+    <Position X="6.25" Y="6.5" Width="1.75" />
+    <TypeIdentifier />
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

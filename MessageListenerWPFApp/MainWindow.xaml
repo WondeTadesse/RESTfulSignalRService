@@ -1,0 +1,81 @@
+﻿<Window x:Class="MessageListenerWPFApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:MessageListenerWPFApp"
+        Title="An Observable Configuration LookUp List with SignalR Listener Demo" 
+        Height="297" Width="484" ResizeMode="NoResize" WindowStartupLocation="CenterScreen"
+>
+    <Grid Margin="0,0,2,-18">
+        <DataGrid HorizontalAlignment="Left" 
+                  Height="214" Width="453" 
+                  Margin="9,16,0,0" VerticalAlignment="Top" 
+                  Name="grdConfigurationLookup" 
+                  AutoGenerateColumns="False" CanUserAddRows="False" FontWeight="Bold" FontFamily="David" 
+                  AreRowDetailsFrozen="True" UseLayoutRounding="True" Background="Orange" BorderBrush="#FF688CAF" Panel.ZIndex="1" Grid.Row="1" Grid.Column="1">
+            <DataGrid.RowStyle>
+                <Style TargetType="{x:Type DataGridRow}">
+                    <Style.Triggers>                        
+                        <DataTrigger Binding="{Binding Status}" Value="Inserted">
+                            <Setter Property="Background" Value="Orange"/>
+                            <Setter Property="IsHitTestVisible" Value="False"/>
+                            <DataTrigger.EnterActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation 
+                                            Storyboard.TargetProperty="Opacity"
+                                            From="0.2" To="1" Duration="0:0:2" 
+                                            AutoReverse="False"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </DataTrigger.EnterActions>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding Status}" Value="Updated">
+                            <Setter Property="Background" Value="Green"/>
+                            <Setter Property="Foreground" Value="White"/>
+                            <Setter Property="IsHitTestVisible" Value="False"/>
+                            <DataTrigger.EnterActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <ColorAnimation 
+                                            Storyboard.TargetProperty="Background.Color" To="Orange"
+                                            Duration="0:0:2" AutoReverse="False"/>                                       
+                                        <ColorAnimation 
+                                            Storyboard.TargetProperty="Foreground.Color" 
+                                            Duration="0:0:2" From="White" To="Black" AutoReverse="False"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </DataTrigger.EnterActions>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding Status}" Value="Deleted">
+                            <Setter Property="Background" Value="#FF6A3131"/>
+                            <Setter Property="IsHitTestVisible" Value="False"/>
+                            <DataTrigger.EnterActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <ColorAnimation 
+                                            Storyboard.TargetProperty="Background.Color" To="Orange"
+                                            Duration="0:0:2" AutoReverse="False"/>
+                                        <ColorAnimation 
+                                            Storyboard.TargetProperty="Foreground.Color" 
+                                            Duration="0:0:2" From="White" To="Black" AutoReverse="False"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </DataTrigger.EnterActions>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding Status}" Value="Default">
+                            <Setter Property="Background" Value="Orange"/>
+                            <Setter Property="IsHitTestVisible" Value="False"/>
+                            <Setter Property="Foreground" Value="Black"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.RowStyle>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding ID}" Width="120" CanUserResize="False"/>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="150" CanUserResize="False" />
+                <DataGridTextColumn Header="Value" Binding="{Binding Value}" Width="150"  CanUserResize="False" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Name="lblCopyRight" HorizontalAlignment="Left" Margin="246,235,0,0" VerticalAlignment="Top" Width="220" FontFamily="Calibri Light" FontWeight="Bold" />
+    </Grid>
+</Window>
